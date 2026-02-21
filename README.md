@@ -21,30 +21,45 @@ Using the File Import Node, the data was imported into SAS. A total of 22 variab
 
 ## 📌 Dataset Balance
 From the Graph explore node, the data set balance is Imbalanced. This is due to the non-equal distribution between the two categories, which are Neutral or Dissatisfied at 67.4% and Satisfied at 32.6%.
-<img src="Screenshot 2026-02-21 at 12.16.26.png"/> 
+
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.16.26.png" width="450"/>
+</p>
 
 ## 📌 Sampling Method (through the Data Partition Node)
 The dataset was split into three: Train set: 50.0, Validation set: 30.0 , Test set: 20.0.
 
 The Data Partition Node was chosen for Sampling to prevent overfitting and enhance the model performance. Missing Data Values - I observed missing data across 3 variables, to address the missing values, Mean Imputation was used via the Impute node for three variables.
-<img src="Screenshot 2026-02-21 at 12.17.44.png"/> 
+
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.17.44.png"450"/>
+</p>
 
 
 ## 📌 Outliers
 The Neutral or Dissatisfied group's departure delays, arrival delays and flight show a large variation, indicating that major delays and long flights have a detrimental effect on satisfaction.
-<img src="Screenshot 2026-02-21 at 12.17.55.png"/> 
+
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.17.55.png"450"/>
+</p>
 
 ## 📌 Multicollonearity
 The scatter plot reveals that the variables Departure_Delay and Arrival_Delay are highly correlated.
-<img src="Screenshot 2026-02-21 at 12.18.06.png"/> 
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.18.06.png"450"/>
+</p>
 
 Data Modelling was done using Logistic Regression models and Decision tree models, Here is the result of the best performing model
 
 From the models created, the most optimal model from the project is the DT-Entropy-Multiway Split, with a ROC Index of 0.98, indicating how well it can distinguish between classes. The most likely positive instances are efficiently targeted by attaining a high Cumulative Lift 3. Its low false negative rate of 54 and somewhat low false positive rate of 167 make it reliable for use in decision-making.
-<img src="Screenshot 2026-02-21 at 12.18.18.png"/> 
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.18.18.png"450"/>
+</p>
 
 ## 📌 % Response and Cumulative Lift of DT-Entropy-Multiway split]
-<img src="Screenshot 2026-02-21 at 12.18.32.png"/> 
+<p align="center">
+  <img src="Screenshot 2026-02-21 at 12.18.32.png"450"/>
+</p>
 
 ## 📌 Business Recommendation and Conclusion
 From the analysis, there are inconsistent airline's schedules leading to Neutral/Dissatisfied passengers. The findings suggest that the airline should focus on operational improvements, such as adhering strictly to schedules and additional strategies for satisfaction such as clear communication and compensation for any extreme delay. Age variable is slightly right skewed indicating more younger passengers, with a mean age of 38.2 years. The airline should address specific age needs for this group, as an opportunity to generate more revenue. Additionally, targeting marketing campaigns and  incentives to attract their highest category of returning customers  (38.2years). Flight distance does not follow a normal distribution with outliers indicating passengers on long-haul flights report higher dissatisfaction, therefore the airline should explore improvements for long flights such as food, entertainment and comfort.
