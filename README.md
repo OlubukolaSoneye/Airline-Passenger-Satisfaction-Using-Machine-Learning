@@ -3,6 +3,7 @@ The project analyses the Satisfaction of airline passengers, by analysing a data
 
 <img src="Screenshot 2026-02-21 at 12.15.56.png"/> width="300"/>
 
+
 ##  📊 The Business
 Airlines operate in a highly competitive industry where customer satisfaction directly impacts retention, revenue, and brand reputation. From a dataset of 10,000 passengers, 67.4% were classified as Neutral or Dissatisfied. This project aimed to identify the key drivers of dissatisfaction and provide data-driven recommendations to improve airline performance and customer experience. 
 
