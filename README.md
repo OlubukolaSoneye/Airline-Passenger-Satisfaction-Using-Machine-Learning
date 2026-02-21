@@ -1,7 +1,7 @@
 # Airline-Passenger-Satisfaction-Using-Machine-Learning
 The project analyses the Satisfaction of airline passengers, by analysing a dataset of 10,000 passengers. The SEMMA framework was utilised in the process of SAS data mining, with Regression and Decision tree models utilised. 
 
-<img src="Screenshot 2026-02-21 at 12.15.56.png"/> width="100"/>
+<img src="Screenshot 2026-02-21 at 12.15.56.png" width="500"/>
 
 
 ##  📊 The Business
