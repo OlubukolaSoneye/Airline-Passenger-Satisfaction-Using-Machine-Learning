@@ -18,7 +18,6 @@ Developed predictive machine learning models using SAS to analyse airline passen
 
 ## 📌 Data Exploration
 Using the File Import Node, the data was imported into SAS. A total of 22 variables were categorised into three levels for this project. 15 variables are Ordinal, 4 variables are Interval and 3 variables are Binary.
-<img src="Screenshot 2026-02-21 at 12.39.17.png"/> 
 
 ## 📌 Dataset Balance
 From the Graph explore node, the data set balance is Imbalanced. This is due to the non-equal distribution between the two categories, which are Neutral or Dissatisfied at 67.4% and Satisfied at 32.6%.
